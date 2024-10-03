@@ -1,0 +1,126 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  background-color: rgb(145, 224, 255);
+}
+
+header{
+  background-color: beige;
+ }
+
+/*contenedor Principal*/
+main{
+  width:900px;
+  height: 800px;
+  margin: 30px auto;
+  padding:20px;
+  border: #3ec25a 2px solid;
+  background-color: white;
+}
+/*Cabecera principal*/
+.cabecera{
+  height: 75px;
+  padding:10px;
+  
+}
+h1{ 
+  background-color: orange;
+  color: white;
+}
+
+nav{ 
+  height: 40px;
+  
+  }
+.menu{
+  margin-left: 60%; /*alineacion izquierda al medio del contenedor nav*/  
+  margin-top: 1.5em;
+  }
+.menu li{
+   display:inline; /*cambiar la presentacion de bloque por defecto a en linea*/   
+   
+}
+/*propiedades del enlace (etiqueta a)*/
+.menu li a{  
+  font-size: 20px;
+  padding:5px;  
+  border-radius:5px 5px 0px 0px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  }
+  .subrayado{
+    text-decoration: none;
+    background-color: yellow;  }
+  
+  .menu li a:hover{
+    background-color:skyblue;
+    color: black;
+  }
+  
+
+.imagen{
+  width:100px;
+  float:left;
+  margin:5px 20px;
+}
+article{
+ height: 500px;
+  width: 50%;
+  float:left; 
+  font-family: "Great Vibes", cursive;
+  text-align: center;
+}
+
+
+aside{
+  height: 500px; 
+  margin-left:51%;
+  font-family: "Great Vibes", cursive;
+  text-align: center;
+  }
+footer{
+    height: 100px;
+    clear:both;
+    background-color: beige;
+    border-top: 6px solid #3ec25a;
+    font-size: 20px;
+    margin: 15px;
+  }
+footer div{
+    float: left;
+    margin: 20px;
+  }
+  .texto-rojo {
+    color: red;
+    font-weight: bold; 
+  }
+  
+  .texto-verde {
+    color: #3ec25a;
+    font-weight: bold; 
+  }
+  
+  .texto-azul {
+    color: blue; 
+    font-weight: bold; 
+  }
+
+  .fondo-celeste {
+    background-color: #87CEEB;
+    color: white;
+  }
+  
+  .fondo-negro {
+    background-color: black; 
+    color: white; 
+  }
+
+.redes{
+    float: right;
+    margin-top: 0.5em;
+    margin-right: 0.5em;
+  }
